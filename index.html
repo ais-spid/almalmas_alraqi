@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>اللمس الراقي | Almalmas Alraqi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #b71c1c, #e53935, #f57c00, #43a047, #1e88e5);
+            background-size: 400% 400%;
+            animation: gradientMove 20s ease infinite;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        
+        @keyframes gradientMove {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+        
+        .container {
+            max-width: 500px;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.97);
+            border-radius: 20px;
+            padding: 30px 25px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+            animation: fadeInUp 1s ease forwards;
+            transform: translateY(20px);
+            opacity: 0;
+        }
+        
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .logo {
+            width: 130px;
+            max-width: 100%;
+            margin: 0 auto 15px;
+            display: block;
+        }
+        
+        h1 {
+            margin: 0 0 12px;
+            font-weight: 700;
+            font-size: 28px;
+            color: #b71c1c;
+        }
+        
+        .desc {
+            font-size: 16px;
+            margin: 6px 0;
+            line-height: 1.5;
+            color: #444;
+        }
+        
+        .link-btn {
+            display: block;
+            background: #b71c1c;
+            color: white;
+            padding: 12px 0;
+            border-radius: 30px;
+            text-decoration: none;
+            margin: 12px auto;
+            width: 90%;
+            max-width: 320px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            font-size: 16px;
+        }
+        
+        .link-btn:hover {
+            background: white;
+            color: #b71c1c;
+            border: 2px solid #b71c1c;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 15px rgba(183, 28, 28, 0.3);
+        }
+        
+        .social-icons {
+            margin: 25px 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        
+        .social-icons a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            color: #b71c1c;
+            font-size: 24px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: 2px solid #b71c1c;
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+        
+        .social-icons a:hover {
+            background: #b71c1c;
+            color: white;
+            transform: scale(1.2);
+        }
+        /* استجابة */
+        
+        @media screen and (max-width: 480px) {
+            .container {
+                padding: 20px 15px;
+            }
+            .logo {
+                width: 100px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            .desc {
+                font-size: 14px;
+            }
+            .link-btn {
+                font-size: 14px;
+                padding: 10px 0;
+            }
+        }
+        
+        @media screen and (max-width: 469px) {
+            .social-icons a {
+                font-size: 15px;
+                width: 25px;
+                height: 25px;
+                border: 1px solid #b71c1c;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- الشعار -->
+        <img src="image/almalmas_alraqi.png" alt="شعار اللمس الراقي" class="logo" />
+
+        <!-- اسم الحساب والوصف -->
+        <h1>اللمس الراقي</h1>
+        <p class="desc">✨ شركة رائدة تضم علامات تجارية مميزة✨</p>
+        <p class="desc"> منظفات، معطرات، عناية بالطفل، وجمال المرأة </p>
+        <p class="desc"> جودة مضمونة وأسعار تنافسية </p>
+
+        <!-- أيقونات التواصل -->
+        <div class="social-icons">
+            <a href="https://wa.me/+966503819492" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://instagram.com/almalmas.alraqi" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@.almalmas.alraqi" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <a href="https://www.facebook.com/share/1F243ocN41/" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://twitter.com/Almalmas_Alraqi" target="_blank"><i class="fab fa-x-twitter"></i></a>
+            <a href="https://www.snapchat.com/add/almalmas.alraqi" target="_blank"><i class="fab fa-snapchat"></i></a>
+        </div>
+
+        <!-- الروابط -->
+        <div class="links">
+            <a href="https://wa.me/+966503819492" class="link-btn" target="_blank">تواصل عبر WhatsApp</a>
+            <a href="https://instagram.com/almalmas.alraqi" class="link-btn" target="_blank">تابعنا على Instagram</a>
+            <a href="https://www.tiktok.com/@.almalmas.alraqi" class="link-btn" target="_blank">تابعنا على TikTok</a>
+            <a href="https://www.snapchat.com/add/almalmas.alraqi" class="link-btn" target="_blank">تابعنا على Snapchat</a>
+            <a href="https://www.facebook.com/share/1F243ocN41/" class="link-btn" target="_blank">تابعنا على Facebook</a>
+            <a href="https://twitter.com/Almalmas_Alraqi" class="link-btn" target="_blank">تابعنا على X</a>
+        </div>
+    </div>
+</body>
+
+</html>
